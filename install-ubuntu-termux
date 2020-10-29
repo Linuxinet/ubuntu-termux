@@ -24,6 +24,8 @@ wget https://raw.githubusercontent.com/EXALAB/Anlinux-Resources/master/Scripts/I
 
 chmod 755 ubuntu.sh;
 
+./ubuntu.sh;
+
 echo -e "\e[1;34m[*] \033[32mHope you like my work..\033[0m";
 
-echo -e "\e[1;34m[*] \033[32m Done...\033[0m"
+echo -e "\e[1;34m[*] \033[32m Done...now run ./start-ubuntu.sh \033[0m"
