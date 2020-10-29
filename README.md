@@ -12,5 +12,6 @@
  hope it works
  
  ***Subscribe our YouTube channel***
- 
- ***youtube.com/linuxinetyt***
+ # [LINUXINET](https://youtube.com/linuxinetyt/)
+
+
