@@ -1,6 +1,6 @@
 #!/data/data/com.termux/files/usr/bin/bash
 
-
+clear;
 #installation commands
 echo -e '\e[0;35m+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+\e[00m';
 echo -e '\033[1;43;30m### SUBSCRIBE MY YOUTUBE CHANNEL ### \033[0m';
@@ -23,6 +23,8 @@ wget https://raw.githubusercontent.com/EXALAB/Anlinux-Resources/master/Scripts/I
 
 chmod 755 ubuntu.sh;
 
+./ubuntu.sh
+
 echo -e "\e[1;34m[*] \033[32mHope you like my work..\033[0m";
 
-printf "[*] Done now run ./ubuntu.sh\n"
+printf "[*] Done \n"
