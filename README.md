@@ -11,7 +11,7 @@
  ```
  hope it works
  
- ***Subscribe our YouTube channel***
- # [LINUXINET](https://youtube.com/linuxinetyt/)
+ ## Subscribe our YouTube channel
+ # [YouTube@LINUXINET](https://youtube.com/linuxinetyt/)
 
 
