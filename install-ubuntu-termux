@@ -1,0 +1,28 @@
+#!/data/data/com.termux/files/usr/bin/bash
+
+
+#installation commands
+echo -e '\e[0;35m+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+\e[00m';
+echo -e '\033[1;43;30m### SUBSCRIBE MY YOUTUBE CHANNEL ### \033[0m';
+echo -e '\033[1;43;30m### youtube.com/linuxinetyt ### \033[0m';
+echo -e '\e[0;35m+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+-+\e[00m';
+
+printf "[*] Installing dependencies...\n";
+
+am start -a android.intent.action.VIEW -d https://youtube.com/linuxinetyt;
+
+echo -e '\033[1;43;30m### SUBSCRIBE MY YOUTUBE CHANNEL FOR MORE UNIQUE VIDEOS ### \033[0m';
+
+apt update -y && apt upgrade -y;
+
+pkg insall wget openssl-tool proot -y;
+
+echo -ne "\033[34m\r[*] Downloading..please wait.........\e[33m[\033[32m$i\033[33m]\033[0m   ";
+
+wget https://raw.githubusercontent.com/EXALAB/Anlinux-Resources/master/Scripts/Installer/Ubuntu/ubuntu.sh;
+
+chmod 755 ubuntu.sh;
+
+echo -e "\e[1;34m[*] \033[32mHope you like my work..\033[0m";
+
+printf "[*] Done now run ./ubuntu.sh\n"
