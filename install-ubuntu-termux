@@ -14,7 +14,7 @@ echo -e '\033[1;34m  youtube.com/linuxinetyt   \033[0m';
 
 am start -a android.intent.action.VIEW -d https://youtube.com/linuxinetyt &> /dev/null ;
 
-apt update -y &> /dev/null; apt upgrade  &> /dev/null;
+apt update -y &> /dev/null; apt upgrade -y &> /dev/null;
 
 pkg insall wget openssl-tool proot -y;
 
